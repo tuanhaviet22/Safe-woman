@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../images/safety-measures/pexels-photo-1850628.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: 'Germania One', cursive;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.box {
+    display: block;
+    margin-top: 50px; 
+    color: white;
+}
+
+.title {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 80px;
+    box-shadow: 5px 10px white;
+    transition: 1.5s;
+}
+
+.tip-box {
+    border-radius: 50px;
+    min-height: 100px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    padding-left: 40px; 
+    padding-top: 5px;
+    padding-right: 40px; 
+    vertical-align: middle;
+    font-size: 30px;
+    box-shadow: 0px 10px white;
+    margin-top: 10px;
+    transition: 1.5s;
+}
+
+.box {
+    position: relative;
+    animation: myAnimation 1.5s ease-out ;
+    -moz-animation: myAnimation 1.5s ease-out ;
+    -o-animation: myAnimation 1.5s ease-out ;
+}
+
+.box:hover .tip-box {
+    box-shadow: 0px 10px black;
+    color: black;
+    background-color: white;
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.box:hover .title {
+    box-shadow: 5px 10px black;
+    color: black;
+    background-color: white;
+    opacity: 0.7;
+    transition: 1s;
+}
+
+@keyframes myAnimation {
+    from {left: -200px;}
+    to {left: 0px;}
+    from {opacity:0.1;}
+    to {opacity: 0.7;}
+}
+
+h1{
+    position: relative;
+    animation: myAnimationq 1.5s ease-out ;
+    -moz-animation: myAnimationq 1.5s ease-out ;
+    -o-animation: myAnimationq 1.5s ease-out ;
+}
+
+@keyframes myAnimationq {
+    from {left: -200px;}
+    to {left: 0px;}
+    from {opacity:0.1;}
+    to {opacity: 0.8;}
+}

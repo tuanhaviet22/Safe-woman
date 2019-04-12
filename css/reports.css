@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../images/reports/bckg.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: 'Germania One', cursive;
+    position: relative;
+    animation: myAnimationq 1.5s ease-out ;
+    -moz-animation: myAnimationq 1.5s ease-out ;
+    -o-animation: myAnimationq 1.5s ease-out ;
+}
+
+@keyframes myAnimationq {
+    from {left: -200px;}
+    to {left: 0px;}
+    from {opacity:0;}
+    to {opacity: 1;}
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+img {
+    width: 300px;
+}
+
+td, tr {
+    color: white;
+    text-align: left;
+}

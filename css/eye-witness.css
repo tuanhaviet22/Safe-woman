@@ -1,0 +1,155 @@
+*{
+    margin: 0 ; 
+    padding: 0  ;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth ;  
+}
+
+body {
+    font-family: "Poppins";
+    
+}
+
+/* .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+} */
+
+.card {
+    width: 100%;
+    height:100vh ;
+    display: flex;
+    background: #fff;
+}
+
+.card-img {
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#img01{
+    background-image: url(../images/eye-witness/sad1.jpg);
+} 
+ #img02{
+    background-image: url(../images/eye-witness/sad2.jpg);
+}
+#img03{
+    background-image: url(../images/eye-witness/sad3.jpg);
+} 
+#img04{
+    background-image: url(../images/eye-witness/sad4.jpg);
+} 
+#img05{
+    background-image: url(../images/eye-witness/sad5.jpg);
+} 
+a{
+    transition: .6s ;
+}
+a:hover {
+    color: white !important ;
+    font-size: 64px;
+}
+
+
+.card-content {
+    padding: 2% 2% ; 
+    box-sizing: border-box;
+    width: 50%;
+    background: #0A0A0A;
+}
+
+.card-theme {
+    font-weight: 900;
+    font-size: 3.4vmin;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 10px;
+    color: grey;
+}
+
+.card-header {
+    font-weight: 700;
+    font-size: 54px;
+    text-transform: capitalize;
+    line-height: 1;
+    margin: 3vmin 0 3.5vmin;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-para {
+    font-size: 1.6vmin;
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 2.5vmin;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-link {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px ;
+    float: right;
+    display: block ;
+    padding-right: 20px ; 
+    
+    
+}
+h2 span {
+    font-size: 14px; 
+    font-weight: 300 !important ; 
+    text-transform: none !important ;
+}
+.paddingtop {
+    height: 30px;
+    width: 100%;
+    background: #0A0A0A ;
+    
+}
+.paddingtop hr{
+    color: white;
+    margin: 0 !important;
+    width: 50%;
+    float: right;
+    
+    line-height: 30px;
+}
+audio{
+    height: 5em;
+    width: 30em;
+}
+small {
+    color: white ; 
+    font-weight: 400 ; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.area { 
+    color: white ; 
+    font-size: 14px  ;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.a1 img{ 
+    padding: 10px;
+}
+.a1 { 
+    display: inline-block ;
+    text-align: center ;
+}

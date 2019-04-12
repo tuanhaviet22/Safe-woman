@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Campaign</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	  <!-- FRAMEWORK SWIPER-->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/campaigns.css">
+    <link rel="stylesheet" href="../css/scroll-bar.css">
+    <!-- STYLE -->
+    <style>
+      #btn-back-to-index{
+        width:90px;
+        height:100px;
+        padding-top:55px;
+        padding-left:12px; 
+        position:fixed;
+        z-index:999;
+        right: -55px;
+        top: 45%;
+        background:rgb(0, 0, 0);
+        border-radius:50%;
+        cursor:pointer;
+        opacity:0.7;
+        color:#fff;
+        font-size:2.0em;
+        transition: 0.6s;
+        }
+    
+        #btn-back-to-index:hover {
+        background: white;
+        color: black;
+        opacity: 0.6;
+        transition: 0.6s;
+        }
+    </style>
+  
+</head>
+
+<body>
+
+  
+<div class="container">
+  <!-- BACK TO INDEX -->
+  <div id="btn-back-to-index" onclick="window.location.href = '../index.html';">
+    <i style="font-size: 20px" class="fa fa-home"></i>
+  </div>
+  <!-- <p class="title">Our campaigns</p> -->
+  <div class="timeline">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url(../images/campaigns/cam1.jpg)" data-year="2016">
+          <div class="swiper-slide-content"><span class="timeline-year">2016</span>
+            <h4 class="timeline-title">Plan to point out dangerous areas</h4>
+            <p class="timeline-text">Dangerous areas are constantly updated on our site <a style="color: white" href="dangerous-areas.html">Dangerous Area</a></p>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(../images/campaigns/cam2.jpg)" data-year="5-2016">
+          <div class="swiper-slide-content"><span class="timeline-year">5-2016</span>
+            <h4 class="timeline-title">Teaching martial judo for women</h4>
+            <p class="timeline-text">We established free martial arts classes around the world for women to protect themselves.</p>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(../images/campaigns/cam3.jpg)" data-year="1-2017">
+          <div class="swiper-slide-content"><span class="timeline-year">1-2027</span>
+            <h4 class="timeline-title">Create a self-defense website for women</h4>
+            <p class="timeline-text">including self-tapping tips, unsafe areas, some pictures of harassers.</p>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(../images/campaigns/cam4.jpg)" data-year="9-2017">
+          <div class="swiper-slide-content"><span class="timeline-year">9-2017</span>
+            <h4 class="timeline-title">Speak out to protect the rights and body of women and girls</h4>
+            <p class="timeline-text">Get community signatures and create groups to support and protect women.</p>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(../images/campaigns/cam5.jpg)" data-year="4-2018">
+          <div class="swiper-slide-content"><span class="timeline-year">4-2018</span>
+            <h4 class="timeline-title">Help harassed victims to integrate with the community</h4>
+            <p class="timeline-text">Many women are victims of harassment. The community will bring the same people together to share and help each other</p>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(../images/campaigns/cam6.jpg)" data-year="1-2019">
+          <div class="swiper-slide-content"><span class="timeline-year">1-2019</span>
+            <h4 class="timeline-title">Support for HIV victims</h4>
+            <p class="timeline-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
+    <script  src="../js/campaigns.js"></script>
+
+
+
+
+</body>
+
+</html>
